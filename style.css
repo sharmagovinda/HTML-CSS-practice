@@ -1,3 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  clear: both;
+}
+
+html,
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.site-wraper {
+  position: relative;
+  overflow: hidden;
+  min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+
 h1 {
   font-size: 50px;
   color: red;
