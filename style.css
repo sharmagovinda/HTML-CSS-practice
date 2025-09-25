@@ -56,21 +56,28 @@ h2 {
   font-size: 40px;
 }
 
-p, ul li, td {
+p,
+ul li,
+td {
   font-size: 20px;
+}
+
+.my-40 {
+  margin: 40px 0;
 }
 
 .info {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 15px;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .info a {
   color: #000;
-  font-size: 24px;
-  font-weight: 500;
   text-decoration: none;
 }
 
@@ -78,38 +85,23 @@ p, ul li, td {
   text-decoration: underline;
 }
 
-.about-section {
-  padding-top: 80px;
-}
-
-.qualification {
-  padding-top: 40px;
-}
-
 table {
   width: 100%;
 }
 
-table, tr, td, th {
+table,
+tr,
+td,
+th {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
   padding: 10px 10px 15px 10px;
 }
 
-.skills {
-  padding-top: 40px;
-}
-
-.experinces {
-  padding-top: 40px;
-}
-
-.contact-us {
-  padding-top: 30px;
-}
 .contact-form {
   display: flex;
   justify-content: start;
@@ -121,17 +113,30 @@ td, th {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
- column-gap: 80px;
+  column-gap: 80px;
 }
 
 label {
-  width: calc(20% - 40px);
+  width: calc(15% - 40px);
   font-size: 20px;
 }
 
-input, textarea {
-  width: calc(80% - 40px);
-  border-radius: 7px;
+input,
+textarea {
+  width: calc(85% - 40px);
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  label {
+    width: 100%;
+  }
 }
 
 input {
@@ -140,7 +145,6 @@ input {
 }
 
 textarea {
-  /* width: 100%; */
   border: 1px solid black;
 }
 
@@ -157,6 +161,8 @@ button {
   display: block;
   max-width: 70px;
   font-size: 20px;
+  border-radius: 4px;
+  background: #fff;
 }
 
 ul {
