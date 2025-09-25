@@ -1,0 +1,43 @@
+.site-wrapper{
+ position: relative;
+ overflow: hidden;
+ min-width: 320px;
+
+}
+table, th, td {
+  border: 1px solid black;
+border-collapse: collapse;
+align-items: center;
+/* border-style: outset; */
+}
+.contnet-wrapper{
+  max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.head-section{
+    max-width:400px;
+   text-align: center;
+   
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 80px;    
+}
+
+input, textarea {
+  flex: 1;        
+  padding: 5px;
+}
+.send{
+  display: flex;
+  justify-content: flex-end;
+}
+.send input{
+  max-width: 60px;
+}
