@@ -39,7 +39,128 @@ h6 {
 }
 
 
+.site-wrapper {
+  padding-inline: 20px;
+}
+
+.site-header {
+  text-align: center;
+  padding-top: 50px;
+}
+
 h1 {
-  font-size: 50px;
-  color: red;
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p, ul li, td {
+  font-size: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.info a {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.about-section {
+  padding-top: 80px;
+}
+
+.qualification {
+  padding-top: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px 10px 15px 10px;
+}
+
+.skills {
+  padding-top: 40px;
+}
+
+.experinces {
+  padding-top: 40px;
+}
+
+.contact-us {
+  padding-top: 30px;
+}
+.contact-form {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+ column-gap: 80px;
+}
+
+label {
+  width: calc(20% - 40px);
+  font-size: 20px;
+}
+
+input, textarea {
+  width: calc(80% - 40px);
+  border-radius: 7px;
+}
+
+input {
+  border: 1px solid black;
+  height: 30px;
+}
+
+textarea {
+  /* width: 100%; */
+  border: 1px solid black;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  display: block;
+  max-width: 70px;
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
