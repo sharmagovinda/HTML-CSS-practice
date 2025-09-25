@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-wrapper{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.site-main{
+    padding: 40px 80px;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 40px;
+}
+.site-header{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+.header-content{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 40px;
+    
+}
+h1{
+    text-transform: capitalize;
+}
+h2{
+    padding: 30px 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+
+}
+.about-container,
+.edu-container,
+.skill-container,
+.experience-container,
+.contact-container{
+    padding: 25px;
+}
+
+
+table,thead, tbody ,tr ,td, th{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: top;
+}
+ul{
+    padding: 0 50px;
+}
+.site-footer{
+    width: 100%;
+    max-width: 1000px;
+    padding:0 80px;
+}
+label{
+    width:60.44px ;
+    font-size: 20px;
+}
+.form-controle{
+    display: flex;
+    gap:0 50px;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.form-input{
+    border: 1px solid gray;
+    outline: non;
+}
+.form-input,
+.textarea{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    flex: 50%;
+}
+.textarea{
+    min-height: 100px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width:800px){
+    .site-main{
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 35px;
+}.site-footer{
+    width: 100%;
+    max-width: 1000px;
+    padding:0 10px;
+}
+.form-controle{
+    display: flex;
+    gap:0 50px;
+    margin: 1px;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+}
