@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    clear: both;
+}
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+main{
+    display: block;
+}
+.site-main{
+    padding: 60px;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    text-transform: capitalize;
+}
+h2{
+    text-transform: capitalize;
+}
+.header .sub-title{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.links,
+.tels{
+    color: #000000;
+    text-decoration: none;
+
+}
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th{
+    text-transform: capitalize;
+}
+
+th,td{
+    border: 1px solid;
+    text-align: left;
+    padding: 10px;
+}
+.form-field{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 100px;
+}
+label.form-label{
+    width: 69px;
+    margin: auto 0;
+}
+input.form-controle{
+    height: 45px;
+    font-size: 20px;
+    padding: 0 5px;
+    flex: 50%;
+}
+textarea.form-controle{
+    height: 100px;
+    font-size: 20px;
+    padding:5px;
+    flex: 50%;
+}
+input.form-controle,
+textarea.form-controle{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+.submit{
+    padding: 14px 50px;
+    background-color: #191a19;
+    border: 0px solid #04ff04;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    color: #ffffff;
+}
+.submit:hover{
+    transform: scale(1.1);
+    background-color: #024902;
+    color: #ffffff;
+}
+
+@media(max-width:767px) {
+    input.form-controle{
+    flex: 100%;
+}
+textarea.form-controle{
+    flex: 100%;
+}
+.form-field{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+}
+}
+
+
+
+
