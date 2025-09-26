@@ -125,6 +125,7 @@ input,
 textarea {
   width: calc(85% - 40px);
   border-radius: 5px;
+  padding-inline: 10px;
 }
 
 @media (max-width: 500px) {
