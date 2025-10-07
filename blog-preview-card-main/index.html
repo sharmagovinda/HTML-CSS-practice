@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *,
+    *::after,
+    *::before{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .figtree {
+      font-family: "Figtree", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+    body{
+      width: 100%;
+      height: auto;
+      min-width: 320px;
+      font-family: "Figtree";
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .site-blog{
+      width: 100%;
+      max-width: 1440px;
+      height: 100vh;
+      background: hsl(47, 88%, 63%);
+      margin: 0 auto;
+      padding: 70px;
+  
+    }
+    .card{
+      width: 100%;
+      max-width: 400px;
+      margin: 100px auto;
+    }
+    .card-container{
+      border: 1px solid #121212;
+      padding: 20px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      box-shadow: 15px 15px;
+    }
+    .img{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-radius: 10px;
+      cursor:pointer;
+    }
+    .img .img-card{
+      width: 100%;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+    button{
+      margin: 10px 0;
+      padding: 9px 15px;
+      background: hsl(47, 88%, 63%);
+      border: none;
+      outline:  none;
+      border-radius: 5px;
+      font-weight: 500;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .active-states{
+      text-decoration: none;
+      color: #121212;
+    }
+    .active-states:hover{
+      text-decoration: none;
+      color: hsl(47, 88%, 63%);
+    }
+    p{
+      margin: 12px 0;
+      font-size: 16px;
+    }
+    .dates{
+      text-transform: capitalize;
+      font-weight: 540;
+    }
+    .author{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 10px 0;
+    }
+    .author-img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .author-Name{
+      width: 100%;
+      max-width: 100px;
+      margin: auto 0;
+      text-transform: capitalize;
+    }
+    @media(max-width:500px){
+        .site-blog{
+        padding: 15px;
+    
+      }
+      .card-container{
+         box-shadow: 10px 10px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="site-blog">
+    <div class="card">
+      <div class="card-container">
+        <div class="img">
+          <img src="card-img.jpg" class="img-card" alt="Blog image not found">
+        </div>
+        <div class="card-content">
+          <button>Leaning</button>
+          <p class="dates">published 6 October 2025</p>
+          <a href="" class="active-states" ><h2 class="card-heading">Cars Plastic Wrapper</h2></a>
+          <p class="description">Car plastic wrappers are non-biodegradable, causing pollution and harming the environment; use eco-friendly alternatives instead.</p>
+          <div class="author">
+            <div class="author-img">
+              <img src="author.jpeg" class="author-img" alt="Author Image not found">
+            </div>
+            <div class="author-Name">
+              <h5 class="author-name">Bijaya tamang</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bijaya Tamang</a>.
+  </div>
+</body>
+</html>
