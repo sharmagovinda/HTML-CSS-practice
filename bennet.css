@@ -1,0 +1,73 @@
+.banner-section {
+    background: rgba(37, 53, 77, 1);
+    padding-inline: 20px;
+}
+
+.text-green {
+    color: #7AC142;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.hero-top-left h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px; /* 115.625% */
+}
+
+.hero-top-left h1 span {
+    color: #7AC142;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.hero-top-section {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.hero-top-left {
+    width: 50%;
+}
+
+.hero-top-right {
+    color: white;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.hero-reviews {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.hero-bottom-section {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  column-gap: 30px;
+
+}
+.hero-bottom-right {
+    width: calc(40% - 15px);
+}
+
+.hero-bottom-left {
+    width: calc(60% - 15px);
+}
+
+.practical-removal {
+  background: url(./assets/images/practicla-removal-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.removal-header {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgba(122, 193, 66, 1);
+}
